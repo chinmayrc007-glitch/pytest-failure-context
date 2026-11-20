@@ -1,0 +1,6 @@
+V4.2 package: pytest-failure-context 0.0.6
+Verification environment: Python 3.13.5; pytest 9.0.2
+Editable install: successful with `python -m pip install -e . --no-build-isolation --no-deps`
+Verification: 40/40 checks passed (`verify_out_v4_2.txt`)
+Wheel build: successful (`dist/pytest_failure_context-0.0.6-py3-none-any.whl`)
+Wheel install: successful from local wheel; pytest11 auto-discovery verified with a temporary failing repository and no explicit `-p` flag.

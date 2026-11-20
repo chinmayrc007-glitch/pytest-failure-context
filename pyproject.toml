@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytest-failure-context"
+version = "0.0.6"
+description = "Opt-in pytest failure context using current-source Python AST, local instance-method inference, and optional UnvibeCode bundle provenance"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pytest>=7"]
+classifiers = ["Framework :: Pytest", "Programming Language :: Python :: 3"]
+
+[project.entry-points.pytest11]
+failure_context = "pytest_failure_context.plugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]
